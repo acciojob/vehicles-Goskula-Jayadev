@@ -20,7 +20,7 @@ public class Boat implements WaterVehicle {
     public int getSeats() {
         return seats;
     }
-    Boat(String name,int seats){
+    public Boat(String name,int seats){
         this.name=name;
         this.seats=seats;
     }
