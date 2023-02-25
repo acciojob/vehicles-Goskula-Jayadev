@@ -4,6 +4,14 @@ public class Boat implements WaterVehicle {
     private String name;
     private int seats;
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
+
     public String getName() {
         return name;
     }
